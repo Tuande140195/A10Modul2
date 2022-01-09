@@ -1,15 +1,11 @@
 package _3_Loop.Ex;
 
+import java.io.Console;
+import java.util.Arrays;
+
 public class demo {
     public static void main(String[] args) {
-        int x = 5;
-
-        do{
-
-            System.out.println("Codegym");
-
-            x--;
-
-        } while(x == 5);
+        double[ ] data = new double[20];
+        data[20] = 15.25;
     }
 }
