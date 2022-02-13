@@ -1,0 +1,11 @@
+package _11_stack_queue.Pra.trien_khai_queue_su_dung_danh_sach_lien_ket;
+
+public class Node {
+    public Node next;
+    public int key;
+
+    public Node(int key) {
+        this.key = key;
+        this.next = null;
+    }
+}
